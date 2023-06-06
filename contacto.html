@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/imagenes/computadora.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/contacto.css">
+
+    <title>CompuInfinito</title>
+</head> 
+<body> 
+    <nav> 
+       
+              
+        <a href="index.html"class="enlace">
+            <img src="/imagenes/logo2.png" alt=""class="logo"> <h2>CompuInfinito</h2>
+          
+        </a>
+        <ul>
+            <li><a href="index.html" class="active ">Inicio</a></li>
+            <li><a href="contacto.html">Contacto </a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        </nav> 
+    </header>  
+    <div class="formulario">
+
+        <h2>Enviar Formulario</h2>
+
+        <form action="https://formsubmit.co/elmueca611201@gmail.com" method="POST">
+            <label for="name">Nombre completo</label>
+            <input type="text"name="name" id="name" required>
+
+            <label for="email">Correo electronico</label>
+            <input type="email"name="email" id="email" required>
+
+            <label for="number">telefono</label>
+            <input type="number" name="number" id="number" required>
+
+            <label for="subject">Asunto</label>
+            <input type="text" name="subject" id="subject" required >
+
+            <label for="coments">comentarios</label>
+            <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+            <input class="boton" type="submit" value="Enviar">
+
+            <input type="hidden"name="_next" value="http://127.0.0.1:5500/contacto.html">
+
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+
+    </div>    
+</body>
+</html>
